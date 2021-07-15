@@ -26,8 +26,8 @@ while(pedaco != NULL){
     acha_encontro++;
     break; 
   }
-  pedaco =strtok(NULL, " ");
   }
+  pedaco =strtok(NULL, " ");
 }
 
 printf("Total de encontros: %d", acha_encontro);
